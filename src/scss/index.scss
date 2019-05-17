@@ -1,0 +1,20 @@
+// Bootstrap Sass files ( @import imports everything below)
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// Variable Overrides (This needs to be before the @import below that imports all bootstrap sass files)
+$primary: #ffd633;
+$secondary: #131516;
+$lightGrey: #797979;
+
+/******************** GENERAL STYLES ********************/
+body {
+	background-color: $primary;
+}
+
+h1 {
+	color: $lightGrey;
+}
+
+h2 {
+	color: $lightGrey;
+}
